@@ -1,16 +1,16 @@
 ﻿using HarmonyLib;
-using NeosModLoader;
+using ResoniteModLoader;
 using UnityEngine;
 using UnityEngine.Rendering.PostProcessing;
 
 namespace DisableFXAA
 {
-    public class DisableFXAA : NeosMod
+    public class DisableFXAA : ResoniteMod
     {
         public override string Name => "DisableFXAA";
-        public override string Author => "DoubleStyx";
-        public override string Version => "1.0.0";
-        public override string Link => "https://github.com/DoubleStyx/DisableFXAA";
+        public override string Author => "DoubleStyx, FalsePattern";
+        public override string Version => "2.0.0";
+        public override string Link => "https://github.com/FalsePattern/DisableFXAA";
 
         private static ModConfiguration config;
 
